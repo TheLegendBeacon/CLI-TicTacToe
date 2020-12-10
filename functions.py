@@ -289,17 +289,3 @@ def multiRounds(firstPlayer: User, secondPlayer: User, gameboard: grid):
         del gameboard
         gameboard = grid()
 
-# Testing
-x = grid()
-y = grid()
-y.play(0, getCoords("a1"))
-y.play(0, getCoords("a2"))
-y.play(0, getCoords("a1"))
-y.play(0, getCoords("a3"))
-y.play(0, getCoords("b1"))
-y.play(0, getCoords("b2"))
-y.play(0, getCoords("b3"))
-y.play(0, getCoords("c1"))
-y.play(0, getCoords("c2"))
-y.play(0, getCoords("c3"))
-
